@@ -35,6 +35,7 @@ console.log('Первое изменение в проекте!')
   <UButton :ui="{ rounded: 'rounded-full' }" @click="themes = 'dark'">Сменить тему на тёмную</UButton>
 
   <UButton :ui="{ rounded: 'rounded-full' }" @click="lang = changeLang(langCor)">Сменить язык</UButton>
+  <h2>Привет я изменил сообщение</h2>
         <div class="px-40 flex flex-1 justify-center py-5">
           <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
             <div class="flex flex-wrap gap-2 p-4">
